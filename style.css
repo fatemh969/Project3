@@ -1,4 +1,8 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@font-face {
+    font-family: 'Far-Yekan';
+    src: url('/Far_Yekan.ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +11,7 @@
 
 html {
     font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Far-Yekan';
     scroll-behavior: smooth;
 }
 
