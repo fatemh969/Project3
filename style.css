@@ -1,6 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@font-face {
+    font-family: yekan;
+    src: url('/yekan-font/Yekan.eot');
+    src: url('/yekan-font/yekan-regular.eot') format('yekan-eot'), url('/yekan-font/Yekan.woff') format('woff'), url('/yekan-font/Yekan.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0;
+    font-family: 'yekan';
     margin: 0;
     box-sizing: border-box;
 }
